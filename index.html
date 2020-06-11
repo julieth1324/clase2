@@ -18,7 +18,7 @@
         titulo 2
     </th>
     <td> Dato 1</td>
-    td> Dato 2</td>
+    <td> Dato 2</td>
 </tr>
 
     </table>
@@ -39,8 +39,40 @@
         </button>
     </fieldset>
     </form>
-    crear el radiobutton
-    crear checklist
+    <fieldset>
+        <legend>datos personales:</legend>
+        <div>
+            
+          Ingrese documento:<input type="text" size="30" name="nombre"/> <br/>
+          seleccione tipo de documento<br>
+          <input type="radio" id="contactChoice1"
+           name="contact" value="T.I." checked>
+          <label for="contactChoice1">T.I.</label>
+    
+          <input type="radio" id="contactChoice2"
+           name="contact" value="phone">
+          <label for="contactChoice2">C.C.</label>
+    
+          <input type="radio" id="contactChoice3"
+           name="contact" value="C.E.">
+          <label for="contactChoice3">C.E.</label>
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Selecciona tus intereses::</legend>
+        <div>
+        <br />
+        <input name="cbipeliculas" type="checkbox" />Películas
+        <br />
+        <input name="cbilibros" type="checkbox" />Libros
+        <br />
+        <input name="cbiinternet" type="checkbox" />Internet
+    </div>
+</fieldset>
+    
 </body>
 
    </html>
